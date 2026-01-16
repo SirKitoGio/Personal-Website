@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Keith Speirs - Portfolio</title>
+    <style>
+        body { background-color: #ffd230; font-family: 'Segoe UI', Tahoma, sans-serif; margin: 0; color: #333; }
+        header { background-color: #2c3e50; color: white; padding: 20px; text-align: center; border-bottom: 5px solid #34495e; }
+        nav { background-color: #34495e; padding: 10px; text-align: center; position: sticky; top: 0; z-index: 100; }
+        nav a { color: white; text-decoration: none; margin: 0 15px; font-weight: bold; }
+        nav a:hover { color: #f1c40f; }
+        
+        .container { display: flex; padding: 20px; gap: 20px; flex-wrap: wrap; }
+        .left-col { flex: 1; min-width: 300px; }
+        .right-col { flex: 2; min-width: 400px; }
+        
+        .card { background: white; padding: 20px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin-bottom: 20px; }
+        .profile-img { width: 100%; border-radius: 10px; border: 5px solid #2c3e50; margin-bottom: 15px; }
+        
+        .skill-tag { 
+            display: inline-block; background: #eef2f3; color: #2c3e50; 
+            padding: 5px 12px; margin: 4px; border-radius: 20px; 
+            font-size: 0.85em; font-weight: bold; border: 1px solid #bdc3c7; 
+        }
+
+        .cert-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; }
+        .cert-card { 
+            background: #fff; border-left: 5px solid #2c3e50; 
+            padding: 12px; border-radius: 5px; border: 1px solid #ddd; 
+            border-left: 6px solid #2c3e50;
+        }
+        .cert-card h4 { margin: 0 0 5px 0; font-size: 0.95em; color: #2c3e50; }
+        .cert-card p { margin: 0; font-size: 0.8em; color: #7f8c8d; }
+        .cert-skills { font-size: 0.75em; color: #2980b9; margin-top: 5px; font-style: italic; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>KEITH ALAN T. SPEIRS</h1>
+    <p>Data Intern | JRU IT Student</p>
+</header>
+
+<nav>
+    <a href="personal.html">Home</a>
+    <a href="family.html">Family</a>
+    <a href="friends.html">Friends</a>
+    <a href="inspiration.html">Inspirations</a>
+</nav>
+
+<div class="container">
+    <div class="left-col">
+        <div class="card">
+            <img src="profile.jpg" class="profile-img" alt="Keith Speirs">
+            <center><h3>Technical Skills</h3></center>
+            <div id="skills-cloud">
+                <span class="skill-tag">SQL</span> <span class="skill-tag">Python</span>
+                <span class="skill-tag">Java (OOP)</span> <span class="skill-tag">Dart</span>
+                <span class="skill-tag">Flutter</span> <span class="skill-tag">NumPy</span>
+                
+                <span class="skill-tag">AWS (Redshift, Lambda, QuickSuite)</span> 
+                <span class="skill-tag">ETL Pipelines</span> <span class="skill-tag">Data Warehousing</span>
+                <span class="skill-tag">Snowflake</span> <span class="skill-tag">MySQL</span>
+                
+                <span class="skill-tag">IT Infrastructure</span> <span class="skill-tag">IT Security</span>
+                <span class="skill-tag">Cloud Computing</span>
+            </div>
+        </div>
+        
+        <div class="card">
+            <h3>Education</h3>
+            <p><b>BS Information Technology</b><br>Jose Rizal University</p>
+            <p><b>Senior High School - STEM</b><br>University of Makati - HSU</p>
+            <p><i>Motto: "Throw yourself in adversity"</i></p>
+        </div>
+    </div>
+
+    <div class="right-col">
+        <div class="card">
+            <h2>Professional Certifications</h2>
+            <div class="cert-grid">
+                <div class="cert-card">
+                    <h4>CompTIA IT Fundamentals+</h4>
+                    <p>Issued Nov 2024</p>
+                    <div class="cert-skills">Infrastructure, Security, Computing</div>
+                </div>
+                <div class="cert-card">
+                    <h4>IT Specialist in Java</h4>
+                    <p>Microsoft | Nov 2025</p>
+                    <div class="cert-skills">Java, OOP</div>
+                </div>
+
+                <div class="cert-card">
+                    <h4>Data Manipulation in SQL</h4>
+                    <p>DataCamp | Jan 2026</p>
+                    <div class="cert-skills">Data Analysis, SQL</div>
+                </div>
+                <div class="cert-card">
+                    <h4>Cloud Computing</h4>
+                    <p>DataCamp | Jan 2026</p>
+                    <div class="cert-skills">Cloud Strategy</div>
+                </div>
+
+                <div class="cert-card">
+                    <h4>Joining Data in SQL</h4>
+                    <p>DataCamp | Dec 2025</p>
+                    <div class="cert-skills">SQL, Joining, PL/SQL</div>
+                </div>
+                <div class="cert-card">
+                    <h4>Intermediate SQL</h4>
+                    <p>DataCamp | Nov 2025</p>
+                    <div class="cert-skills">SQL Queries</div>
+                </div>
+                <div class="cert-card">
+                    <h4>Intro to Python</h4>
+                    <p>DataCamp | Nov 2025</p>
+                    <div class="cert-skills">Python, NumPy</div>
+                </div>
+                <div class="cert-card">
+                    <h4>Data Engineering</h4>
+                    <p>DataCamp | Nov 2025</p>
+                    <div class="cert-skills">ETL, Pipelines, Warehousing</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <hr>
+    <center><p>Keith Alan T. Speirs | Section 204I | ITCC504 - Multimedia Development</p></center>
+</footer>
+
+</body>
+</html>
