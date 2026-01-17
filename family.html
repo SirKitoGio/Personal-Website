@@ -4,28 +4,31 @@
     <title>My Family - Keith Speirs</title>
     <style>
         body { 
-            background-color: #c0392b;
+            background-color: #ffd230;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
-            color: white;
+            color: #333;
         }
-        header { background-color: #922b21; padding: 20px; text-align: center; border-bottom: 5px solid #7b241c; }
-        nav { background-color: #2c3e50; padding: 10px; text-align: center; }
+        header { background-color: #2c3e50; color: white; padding: 20px; text-align: center; border-bottom: 5px solid #34495e; }
+        nav { background-color: #34495e; padding: 10px; text-align: center; }
         nav a { color: white; text-decoration: none; margin: 0 15px; font-weight: bold; }
+        nav a:hover { color: #f1c40f; } 
         
         .gallery-container {
             max-width: 900px;
             margin: 30px auto;
-            background: white;
+            background: white; 
             padding: 20px;
             border-radius: 15px;
             color: #333;
-            box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
         }
         .main-photo {
             width: 100%;
+            max-width: 600px; 
             border-radius: 10px;
             margin-bottom: 20px;
+            border: 5px solid #2c3e50; 
         }
         .family-description {
             line-height: 1.6;
@@ -33,19 +36,19 @@
             text-align: center;
             padding: 10px;
         }
-        footer { margin-top: 50px; text-align: center; font-size: 0.9em; opacity: 0.8; }
+        footer { margin-top: 50px; text-align: center; font-size: 0.9em; color: #333; }
         
         .back-btn {
             display: inline-block;
             margin-top: 20px;
             padding: 10px 20px;
-            background-color: #2c3e50;
+            background-color: #2c3e50; 
             color: white;
             text-decoration: none;
             border-radius: 5px;
             font-weight: bold;
         }
-        .back-btn:hover { background-color: #34495e; }
+        .back-btn:hover { background-color: #34495e; color: #f1c40f;}
     </style>
 </head>
 <body>
@@ -63,7 +66,7 @@
 
 <div class="gallery-container">
     <center>
-        <img src="Pictures/family_photo.JPG" width ="200" length="200"class="main-photo" alt="My Family">
+        <img src="Pictures/family_photo.JPG" class="main-photo" alt="My Family">
     </center>
 
     <div class="family-description">
