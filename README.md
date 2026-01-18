@@ -2,7 +2,7 @@ Personal Portfolio Website
 ITCC504 - Multimedia Development Performance Task
 This project is a professional 4-page personal website developed for Jose Rizal University. It showcases my academic progress and professional experience, transitioning from basic HTML requirements into a modern, CSS-enhanced portfolio.
 
-🚀 Key Features
+Key Features
 Professional Resume: A landing page detailing my IT education and technical experience, including my role at UnionDigital Bank.
 
 Certification Showcase: A responsive grid featuring credentials from CompTIA, Microsoft, and DataCamp.
@@ -11,14 +11,14 @@ Themed Galleries: Custom-styled pages for Family, Friends, and Inspirations usin
 
 Interactive Navigation: A persistent navigation system allowing seamless movement between all project sections.
 
-🛠️ Technical Stack
+Technical Stack
 HTML5: Core structure and semantic elements.
 
 CSS3: Custom layouts, responsive grids, and visual styling.
 
 VS Code: Primary development environment.
 
-📂 File Structure
+File Structure
 personal.html: Main portfolio and resume.
 
 family.html: Dedicated family background page.
